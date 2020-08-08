@@ -1,0 +1,24 @@
+:root {
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --modal-duration: 2s;
+    --primary-color:rgba(26, 107, 230, 0.404);
+    --secondary-color:rgba(243, 92, 92, 0.445);}
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: medium;
+        font-style: italic;
+    }
+    div {
+        padding: 25px;
+        align-content: center;
+
+    }
+    

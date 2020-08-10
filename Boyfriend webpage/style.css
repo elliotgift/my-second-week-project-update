@@ -70,11 +70,16 @@
     margin-top: 5%;
     margin-bottom: 40%;
 }
+.section-1{
+    background-color: rgb(8, 81, 116);
+}
 .section-1 .heading-1 {
     margin-top: 8%;
+    font-weight: 100;
 }
 .section-1 .heading-2 {
     margin-bottom: 5%;
+    font-weight: 100;
 }
 .section-1 .para-1{
     width: 60%;

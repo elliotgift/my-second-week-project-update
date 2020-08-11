@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
+}
+body{
+  background-color: rgb(102, 52, 79);
 }
 
 nav {
@@ -71,6 +75,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  body{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob;
+}
 
   /* WHAT SHOULD HAPPEN TO THE NAV-LINKS WHEN WE GET TO MOBILE */
   .nav-links {
@@ -134,4 +141,50 @@ nav {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.container{
+  background-image: repeating-linear-gradient(hotpink,orange,white,brown);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 5%;
+  margin-right: 20%;
+  padding: 8%;
+  padding-top: 0%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.site-content{
+  background-image: url(./images/FB_IMG_1563468524240.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-title,
+.site-desc {
+  color:rgb(29, 1, 24);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6px;
+  font-style: 100px;
+}
+.site-desc{
+  font-size: 14px;
+  padding-left: 15px;
+}
+.site-btn1{
+  margin-left: 35%;
+  background-color: rgb(16, 19, 19);
+  color: rgb(64, 233, 233);
+}
+.site-btn2{
+ background-color: thistle;
+
+}
+.site-btn1,.site-btn2{
+  margin-top: 5%;
+  margin-bottom: 40%;
 }
